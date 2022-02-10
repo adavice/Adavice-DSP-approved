@@ -98,6 +98,9 @@
 	[class*="desk"] {
 		display: none !important;
 	}
+	span.visible_block {
+		display: block !important;
+	}
 
 	[class*="mob"] {
 		display: unset !important;
@@ -222,6 +225,12 @@
 	.effect-menu-text-icons {
 		margin-left: 20px;
 	}
+	.dps .iconsection {
+		margin-top: 0;
+	}
+	.dps .iconsection .iconbox {
+		margin-top: 60px;
+	}
 
 	/* text next to icons */
 	.menu-text, .menu-text:visited {
@@ -296,12 +305,14 @@
 
 	.iconsection {
 		flex-direction: column;
-
 	}
 	.iconbox {
 		width: 100% !important;
 		margin-top: 70px;
 		margin-bottom: 0;
+	}
+	.dps .iconbox {
+		margin-top: 0;
 	}
 	.iconbox p {
 		text-align: center;
@@ -768,7 +779,7 @@ text-align: center;
 		margin-right: auto;
 	}	
 	.invisible_block{
-		display: none;
+		display: none !important;
 	}	
 	.dps .halfblock{
 		background: linear-gradient(0deg, #003d71e8, #003d71e8), url(../img/target.jpg) no-repeat;

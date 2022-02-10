@@ -228,19 +228,31 @@ a {
 	color: #fff;
 
 }
+.dps .iconsection {
+	margin-top: 60px;
+}
 .iconsection {
 	display: flex;
 	height: min-content;
 }
+.iconsection.invisible_block {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
 .iconsection span {
 	margin-left: auto;
     margin-right: auto;
     white-space: normal;
 }
+
 .howWorks > .iconsection {
 	margin-top: 100px;
 	margin-bottom: 70px;
 }
+
 .iconbox {
 	position: relative;
 	color: var(--main-color);
@@ -251,24 +263,19 @@ a {
 	white-space: nowrap;
 	float: left;
 	height: min-content;
-	margin: 50px 0 70px;
-
 }
 
 .iconbox span {
 	display: block;
 	margin-bottom: 15px;
 	font-weight: 900;
-
-
 }
+
 .iconbox img {
 	display: block;
 	margin: 20px auto;
 	height: 92px;
 }
-
-
 
 .iconbox .connector {
 	position: absolute;
@@ -1324,8 +1331,6 @@ Careers*/
 }
 .ads li::marker {
 	color: var(--highlight);
-
-
 }
 .position_box h3 {
 	margin-bottom: 20px;
@@ -1467,7 +1472,17 @@ margin-top: 90px;
 	color: var(--highlight);
 }
 
-.dps .iconbox li{
+.dps .iconbox ul ~ span, .dps .visible_block ~ span {
+	color: var(--main-color);
+	background: #F0F0F0;
+	font-size: 14px !important;
+	display: block;
+	margin-top: 8px;
+	padding: 10px;
+	text-align: center;
+}
+
+.dps .iconbox li {
 text-align: left;
 font-size: 16px;
 white-space: break-spaces;
@@ -1500,7 +1515,7 @@ margin: 0;
 }
 
 .dps .button_block h2 span{
-	color: var(--highlight);;
+	color: var(--highlight);
 }
 
 .dps .halfblock .desk{
