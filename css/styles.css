@@ -237,7 +237,6 @@ a {
 }
 .iconsection.invisible_block {
 	display: flex;
-	align-items: flex-end;
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
